@@ -1,2 +1,2 @@
-# Ignore myenv folder
-myenv/
+# Ignore venv folder
+.venv/

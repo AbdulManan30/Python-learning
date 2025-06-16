@@ -19,16 +19,16 @@
 # print(5*10)
 
 # # Problem 3
-# import pyttsx3
-# engine = pyttsx3.init()
-# engine.say("I will speak this text")
-# engine.runAndWait()
+import pyttsx3
+engine = pyttsx3.init()
+engine.say("My name is john and i'm Working as a Software Engineer in Microsoft!!!")
+engine.runAndWait()
 
 # Problem 4
-import os
-directoryPath = "/home/abdul-manan/Desktop"
-contents = os.listdir(directoryPath)
-for item in contents:
-    print(item)
+# import os
+# directoryPath = "/home/abdul-manan/Desktop"
+# contents = os.listdir(directoryPath)
+# for item in contents:
+#     print(item)
     
     
