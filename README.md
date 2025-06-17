@@ -45,7 +45,7 @@ If you're also learning Python or found this repo helpful:
 > 👉 Don't forget to **Star** this repository!  
 > It keeps me motivated to continue sharing my learning journey. 🌟
 
-[![GitHub stars](https://img.shields.io/github/stars/your-AbdulManan30/Python-learning?style=social)](https://github.com/your-github-username/your-repo-name/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/AbdulManan30/Python-learning?style=social)](https://github.com/AbdulManan30/Python-learning/stargazers)
 
 
 _(And more coming soon...)_
