@@ -27,7 +27,6 @@ I am committed to learning Python for AI/ML purposes, and this repo reflects my 
 ✅ Modules & Packages  
 
 🛠 Tools Used
-### 🧰 Tools  
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" alt="VS Code" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" alt="Git" />
