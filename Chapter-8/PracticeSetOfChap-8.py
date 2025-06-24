@@ -36,11 +36,19 @@
 **
 *
 '''
-rows = int(input("Enter your number: "))
-def patternPrinter(n):
-    if(n==0):
-        return
-    print("*" * n)
-    patternPrinter(n-1)
+# rows = int(input("Enter your number: "))
+# def patternPrinter(n):
+#     if(n==0):
+#         return
+#     print("*" * n)
+#     patternPrinter(n-1)
     
-patternPrinter(rows)
+# patternPrinter(rows)
+
+# Q5 Calculate factorial using recursion
+facValue = int(input("Please enter your number: "))
+def factorial(num):
+    if(num==1):
+        return 1
+    return num * factorial(num-1)
+print(factorial(facValue))
