@@ -13,15 +13,25 @@ comp = dictForNumber[computerNum]
 if(comp == you):
     print(f"Draw Computer choice is also {comp}")
 else:
-    if(comp == "Snake" and you == "Water"):
-        print(f"You Lose! you chose {you} and Computer chose {comp}")
-    elif(comp == "Water" and you == "Gun"):
-        print(f"You Lose! you chose {you} and Computer chose {comp}")
-    elif(comp == "Gun" and you == "Snake"):
-        print(f"You Lose! you chose {you} and Computer chose {comp}")
-    elif(comp == "Water" and you == "Snake"):
+    # First method
+    
+    # if(comp == "Snake" and you == "Water"):
+    #     print(f"You Lose! you chose {you} and Computer chose {comp}")
+    # elif(comp == "Water" and you == "Gun"):
+    #     print(f"You Lose! you chose {you} and Computer chose {comp}")
+    # elif(comp == "Gun" and you == "Snake"):
+    #     print(f"You Lose! you chose {you} and Computer chose {comp}")
+    # elif(comp == "Water" and you == "Snake"): #1
+    #     print(f"You Win! you chose {you} and Computer chose {comp}")
+    # elif(comp == "Gun" and you == "Water"): #1
+    #     print(f"You Win! you chose {you} and Computer chose {comp}")
+    # elif(comp == "Snake" and you == "gun"): #-2
+    #     print(f"You Win! you chose {you} and Computer chose {comp}")
+    
+    # Second Method
+    
+    if(computerNum - yourNum == 1 or computerNum - yourNum == -2):
         print(f"You Win! you chose {you} and Computer chose {comp}")
-    elif(comp == "Gun" and you == "Water"):
-        print(f"You Win! you chose {you} and Computer chose {comp}")
-    elif(comp == "Snake" and you == "gun"):
-        print(f"You Win! you chose {you} and Computer chose {comp}")
+    else:
+        print(f"You Lose! you chose {you} and Computer chose {comp}")
+    
