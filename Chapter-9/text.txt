@@ -1,0 +1,1 @@
+Python mein sum() ek built-in function hai jo kisi iterable (jaise list, tuple) ke total sum ko return karta hai.
